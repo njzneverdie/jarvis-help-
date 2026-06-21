@@ -1,0 +1,23 @@
+{
+  "camera": { "index": 0, "width": 640, "height": 480, "flip_horizontal": true },
+  "cursor": {
+    "sensitivity": 2.0,
+    "min_cutoff": 1.0,
+    "beta": 0.01
+  },
+  "debounce": {
+    "confirm_seconds": 0.4,
+    "cooldown_seconds": 0.6
+  },
+  "gestures": {
+    "fist":        { "action": "activate_move" },
+    "fist_ok":     { "action": "drag" },
+    "six":         { "action": "left_click" },
+    "victory":     { "action": "double_click" },
+    "three":       { "action": "right_click" },
+    "point_index": { "action": "scroll" },
+    "thumbs_up":   { "action": "launch", "target": "https://youtube.com" },
+    "open_palm":   { "action": "none" }
+  },
+  "ui": { "show_preview": true, "show_landmarks": true, "show_confidence": true }
+}
